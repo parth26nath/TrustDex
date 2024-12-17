@@ -87,7 +87,7 @@ function Swap(props) {
 
   async function fetchPrices(one, two){
 
-      const res = await axios.get(`trustdex-backend.railway.internal/tokenPrice`, {
+      const res = await axios.get(`trustdex-backend-production.up.railway.app/tokenPrice`, {
         params: {addressOne: one, addressTwo: two}
       })
 
