@@ -2,7 +2,6 @@
   "name": "dex",
   "version": "0.1.0",
   "private": true,
-  "proxy": "api.1inch.dev",
   "dependencies": {
     "@ant-design/icons": "^5.0.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -10,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^5.1.5",
     "axios": "^1.2.3",
+    "caniuse-lite": "^1.0.30001689",
     "cors": "^2.8.5",
     "ethers": "^5.7.2",
     "http-proxy-middleware": "^3.0.3",
